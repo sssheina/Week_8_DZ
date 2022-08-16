@@ -47,5 +47,10 @@ div.col-3.text-center {
 }
 
 footer {
+  
   margin-top: 30px;
+}
+div.text-center.p-3  {
+  height: 100px;
+  
 }
