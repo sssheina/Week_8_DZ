@@ -1,0 +1,51 @@
+a {
+  color: aliceblue;
+}
+
+div.p-3.mb-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+#button {
+  padding-left: 20px;
+}
+
+div.col-3.text-center {
+  padding-top: 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-footer {
+  margin: 0px;
+  padding: 12px 40px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card-title {
+  margin-top: 12px;
+}
+
+footer {
+  margin-top: 30px;
+}
