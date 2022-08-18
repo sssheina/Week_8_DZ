@@ -12,7 +12,7 @@
     src:url("../fonts/Intro/IntroDemo-BlackCAPS.otf");
 }
 
-.conteiner {
+.container {
 max-width: 1296px;
 margin: 0 auto;
 }
@@ -21,14 +21,14 @@ margin: 0 auto;
     padding-top: 49px;
 
 }
-.main-section__nav-conteiner {
+.main-section__nav-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 41px;
     align-items: center;
 }
-.main-section__content-conteiner {
+.main-section__content-container {
 /* position: relative; */
 display: flex;
 flex-direction: row;
@@ -109,9 +109,9 @@ padding: 0px;
     line-height: 160%;
 }
 
-.right-wrapper {
+/* .right-wrapper {
     
-}
+} */
 #men {
     position: relative;
     right: -72px;
