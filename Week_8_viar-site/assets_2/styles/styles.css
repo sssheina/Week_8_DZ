@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    src:url("../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'Intro';
+    font-style: normal;
+    font-weight: 400;
+    src:url("../fonts/Intro/IntroDemo-BlackCAPS.otf");
+}
+
+.conteiner {
+max-width: 1296px;
+margin: 0 auto;
+}
+.main-section {
+    height: 860px;
+    padding-top: 49px;
+
+}
+.main-section__nav-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 41px;
+    align-items: center;
+}
+.main-section__content-conteiner {
+/* position: relative; */
+display: flex;
+flex-direction: row;
+}
+.btn {
+    background-color: #5222D0;
+    font-family: 'Intro';
+    border: none;
+    color: white;
+    height: 38px;
+    width: 135px;
+    border-radius: 25px;
+    padding: 12px 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7853cc;
+}
+.buy {
+    position: relative;
+    top: 60px;
+    font-size: 35px;
+    height: 84px;
+    width: 270px;
+    border-radius: 45px;
+}
+img {
+    margin-left: 5px;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    
+}
+.nav-menu1 {
+    position: relative;
+    margin-left: 0px;
+}
+.nav-menu1__list {
+    display: flex;
+    flex-direction: row;
+    position: s;
+top: 200px;
+right: 0px;
+}
+.nav-menu1__list-item {
+    color: rgba(82, 34, 208, 1);
+    margin-right: 34px;
+}
+.nav-menu1__list-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-menu1__list-item:first-child {
+    margin-left: 0px;
+}
+
+
+.left-wrapper {
+    width: 500px;
+    position: relative;
+}
+.text {
+    position: relative;
+    top: 50px;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+}
+
+.right-wrapper {
+    
+}
+#men {
+    position: relative;
+    right: -72px;
+    top: 88.11px;
+}
+.title {
+    position: relative;
+    top: 76px;
+    font-family: 'Intro';
+    font-weight: 400;
+    font-size: 60px;
+}
+h1 {
+    width: 500px
+}
